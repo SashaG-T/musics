@@ -43,6 +43,7 @@ Musics reads from standard input!
   * \` for a pause (l affects pauses too!)
   * . is used to indicate end of data (you can put whatever you want after it such as notes)
   * Any other character is ignored so you can used unused characters to help visually organize the file.
+* All whitespace is treated the same (it can all be on one line if you really wanted)
 
 # Examples
 Check out "lostwoods.txt" or "Canon in D.txt".
