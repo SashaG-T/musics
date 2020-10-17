@@ -36,7 +36,7 @@ Musics reads from standard input!
   * o[number] to set octave
   * l[number] to set length of precceding notes (l1 for whole note, l2 for half note, l4 for quarter note, etc.)
   * < to go down an octave
-  * > to go up an octave
+  * \> to go up an octave
   * - to set precceding note as flat
   * + to set precceding note as sharp
   * - a-g for notes (no uppercase and currently set to an arbitrary max of 100 notes)
