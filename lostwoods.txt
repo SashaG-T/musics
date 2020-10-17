@@ -1,0 +1,12 @@
+0 500 5000 0.005 5000 300.0 0.30 70.0
+t160
+l8o4f	>a	l4b		l8<f	>a	l4b		|
+l8<f	>a	b	e	l4d		l8b	c	|
+b	<g	l2e				l8`	d	|
+e	g	l2e				l4`		|
+l8f	>a	l4b		l8<f	>a	l4b		|
+l8<f	>a	b	e	l4d		l8b	c	|
+e	b	<l2g				l8`	>b	|
+<g	d	l2e				l4`		|
+l8`	`	`	`	`	`	`	`	|
+.
