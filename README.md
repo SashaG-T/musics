@@ -37,9 +37,9 @@ Musics reads from standard input!
   * l[number] to set length of precceding notes (l1 for whole note, l2 for half note, l4 for quarter note, etc.)
   * < to go down an octave
   * \> to go up an octave
-  * - to set precceding note as flat
-  * + to set precceding note as sharp
-  * - a-g for notes (no uppercase and currently set to an arbitrary max of 100 notes)
+  * \- to set precceding note as flat
+  * \+ to set precceding note as sharp
+  * a-g for notes (no uppercase and currently set to an arbitrary max of 100 notes)
   * \` for a pause (l affects pauses too!)
   * . is used to indicate end of data (you can put whatever you want after it such as notes)
   * Any other character is ignored so you can used unused characters to help visually organize the file.
