@@ -5,15 +5,16 @@ I would like to improve this into a suite of command line tools to generate some
 It was also an exercise in Endianness.
 
 # Compiling
-gcc musics.c -o musics.exe
+	gcc musics.c -o musics.exe
 (or however you you like to compile your shtufs)
 
 # Usage
-./musics.exe [filename]
-	- filename is the name of the output file if not provided will default to "wavefile.wav".
+	./musics.exe [filename]
+* filename is the name of the output file if not provided will default to "wavefile.wav".
 
 Pipe into it! (Recommended):
-	- cat "Canon in D.txt" | ./musics.exe "Canon in D.wav"
+
+	cat "Canon in D.txt" | ./musics.exe "Canon in D.wav"
 
 # Input Structure
 Musics reads from standard input!
@@ -24,11 +25,11 @@ Musics reads from standard input!
 	[SongData]
 	.
 
-WaveType: 0 for sin, 1 for square. (integer)
-AttackTime: Attack Ramp in Samples. (integer)
-DecayTime: Decay Ramp in Samples. (integer)
-SustainLevel: Level to sustain wave after attack and decay. (0.0 - 1.0 float)
-RelaseTime: Release Ramp in Samples. (integer)
+* WaveType: 0 for sin, 1 for square. (integer)
+* AttackTime: Attack Ramp in Samples. (integer)
+* DecayTime: Decay Ramp in Samples. (integer)
+* SustainLevel: Level to sustain wave after attack and decay. (0.0 - 1.0 float)
+* RelaseTime: Release Ramp in Samples. (integer)
 
 SongData:
 	* t[number] to set tempo (in Beats Per Minute)
